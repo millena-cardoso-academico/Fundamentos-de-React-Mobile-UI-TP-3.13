@@ -1,0 +1,23 @@
+.category-list {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-list button {
+  background-color: var(--highlight-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category-list button:hover {
+  background-color: var(--button-hover);
+}
+
+.app-container.dark .category-list button {
+  background-color: var(--highlight-color);
+  color: var(--text-dark);
+}
